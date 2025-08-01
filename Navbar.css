@@ -1,0 +1,30 @@
+  .navbar {
+  background:cadetblue;
+  padding: 1.2rem;
+  position: fixed;
+  margin-top: 0;
+  justify-content:space-evenly;
+   
+  width: 100%;
+   display: flex;
+}
+.nav-list {
+  list-style: none;
+   display: flex;
+    justify-content:space-evenly;
+     
+  gap: 8rem;
+  margin: 0;
+  padding: 0;
+  left: 0;
+   
+}
+.nav-list a {
+  color: white;
+  text-decoration: none;
+ font-size: large;
+  font-weight: bold;
+}
+.nav-list a:hover {
+  text-decoration:underline;
+}
