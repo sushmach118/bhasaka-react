@@ -1,0 +1,46 @@
+.my-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 360px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.my-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: cadetblue;
+}
+
+.my-form input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.my-form small.error {
+  color: red;
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.my-form button {
+  padding: 0.75rem;
+  background: cadetblue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.my-form button:hover {
+  background: darkcyan;
+}
